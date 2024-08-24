@@ -5,7 +5,7 @@
   const FRAME_RATE = 60
   const PARTICLE_NUM = 3000
   const RADIUS = Math.PI * 2
-  const CANVASWIDTH = 800
+  const CANVASWIDTH = 600
   const CANVASHEIGHT = 200
   const CANVASID = 'canvas'
 
