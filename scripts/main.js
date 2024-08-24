@@ -42,7 +42,7 @@
     quiver = true,
     text = texts[0],
     textIndex = 0,
-    textSize = 35
+    textSize = 45
 
   function draw () {
     ctx.clearRect(0, 0, CANVASWIDTH, CANVASHEIGHT)
