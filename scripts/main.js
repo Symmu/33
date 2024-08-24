@@ -4,8 +4,8 @@
 
   const FRAME_RATE = 60
   const PARTICLE_NUM = 2000
-  const RADIUS = Math.PI * 4
-  const CANVASWIDTH = 1200
+  const RADIUS = Math.PI * 2
+  const CANVASWIDTH = 500
   const CANVASHEIGHT = 150
   const CANVASID = 'canvas'
 
@@ -34,8 +34,7 @@
     '那也没关系',
     '我们，算是朋友吧...',
     '最后说一句', 
-    'I MISS YOU', 
-  ]
+    'I MISS YOU', ]
   //let texts = ['MY DEAR', 'LOOK UP AT THE', 'STARRY SKY', 'ARE YOU', 'LOOKING AT THE', 'SAME STAR', 'WITH ME ?', 'HAPPY', 'CHINESE', 'VALENTINE\'S', 'DAY', 'I MISS YOU']
 
   let canvas,
@@ -44,7 +43,7 @@
     quiver = true,
     text = texts[0],
     textIndex = 0,
-    textSize = 35
+    textSize = 70
 
   function draw () {
     ctx.clearRect(0, 0, CANVASWIDTH, CANVASHEIGHT)
@@ -90,8 +89,8 @@
           Y
 
         if (quiver) {
-          X = (pxls[i - 1][0]) - (p.px + Math.random() * 5)
-          Y = (pxls[i - 1][1]) - (p.py + Math.random() * 5)
+          X = (pxls[i - 1][0]) - (p.px + Math.random() * 10)
+          Y = (pxls[i - 1][1]) - (p.py + Math.random() * 10)
         } else {
           X = (pxls[i - 1][0]) - p.px
           Y = (pxls[i - 1][1]) - p.py
@@ -139,7 +138,7 @@
     canvas.style.top = '0%'
     canvas.style.bottom = '0%'
     canvas.style.right = '0%'
-    canvas.style.marginTop = window.innerHeight * .33 + 'px'
+    canvas.style.marginTop = window.innerHeight * .15 + 'px'
   }
 
   function event () {
@@ -185,7 +184,7 @@
       let spread = canvas.height
       let size = Math.random() * 1.2
       // 速度
-      this.delta = 0.09
+      this.delta = 0.06
       // 现在的位置
       this.x = 0
       this.y = 0
