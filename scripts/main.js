@@ -5,7 +5,7 @@
   const FRAME_RATE = 60
   const PARTICLE_NUM = 3000
   const RADIUS = Math.PI * 2
-  const CANVASWIDTH = 1200
+  const CANVASWIDTH = 800
   const CANVASHEIGHT = 200
   const CANVASID = 'canvas'
 
@@ -42,7 +42,7 @@
     quiver = true,
     text = texts[0],
     textIndex = 0,
-    textSize = 90
+    textSize = 75
 
   function draw () {
     ctx.clearRect(0, 0, CANVASWIDTH, CANVASHEIGHT)
