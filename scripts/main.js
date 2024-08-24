@@ -3,10 +3,10 @@
   window.webkitRequestAnimationFrame || window.msRequestAnimationFrame
 
   const FRAME_RATE = 60
-  const PARTICLE_NUM = 3000
+  const PARTICLE_NUM = 2000
   const RADIUS = Math.PI * 2
   const CANVASWIDTH = 600
-  const CANVASHEIGHT = 200
+  const CANVASHEIGHT = 150
   const CANVASID = 'canvas'
 
   let texts = ['33',
@@ -42,7 +42,7 @@
     quiver = true,
     text = texts[0],
     textIndex = 0,
-    textSize = 75
+    textSize = 65
 
   function draw () {
     ctx.clearRect(0, 0, CANVASWIDTH, CANVASHEIGHT)
