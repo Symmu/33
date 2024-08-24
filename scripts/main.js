@@ -5,7 +5,7 @@
   const FRAME_RATE = 60
   const PARTICLE_NUM = 2000
   const RADIUS = Math.PI * 2
-  const CANVASWIDTH = 800
+  const CANVASWIDTH = 1200
   const CANVASHEIGHT = 150
   const CANVASID = 'canvas'
 
@@ -181,9 +181,9 @@
   class Particle {
     constructor (canvas) {
       let spread = canvas.height
-      let size = Math.random() * 1.2
+      let size = Math.random() * 3
       // 速度
-      this.delta = 0.06
+      this.delta = 0.09
       // 现在的位置
       this.x = 0
       this.y = 0
