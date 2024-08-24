@@ -3,10 +3,10 @@
   window.webkitRequestAnimationFrame || window.msRequestAnimationFrame
 
   const FRAME_RATE = 60
-  const PARTICLE_NUM = 5000
+  const PARTICLE_NUM = 3000
   const RADIUS = Math.PI * 2
-  const CANVASWIDTH = 1500
-  const CANVASHEIGHT = 150
+  const CANVASWIDTH = 1200
+  const CANVASHEIGHT = 200
   const CANVASID = 'canvas'
 
   let texts = ['33','很高兴遇见你','有很多话想说','但又不敢说出来','不过没关系','我决定在这里说','其实第一次见你','我感到很奇妙','那是一种','莫名强烈的熟悉感','这让我感到很恍惚','也让我感到很开心','所以说','我，很想认识你','也很想见你','如果可以的话','我想跟你做个约定','下一年','这个时候','我想和你去一个地方','嘻嘻！','如果你没有想法','那也没关系','我们，算是朋友吧...','最后说一句','I MISS YOU']
