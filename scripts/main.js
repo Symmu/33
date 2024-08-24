@@ -156,9 +156,9 @@
   class Particle {
     constructor (canvas) {
       let spread = canvas.height
-      let size = Math.random() * 1.2
+      let size = Math.random() * 2.4
       // 速度
-      this.delta = 0.06
+      this.delta = 0.04
       // 现在的位置
       this.x = 0
       this.y = 0
