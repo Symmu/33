@@ -17,7 +17,7 @@
     quiver = true,
     text = texts[0],
     textIndex = 0,
-    textSize = 65
+    textSize = 70
 
   function draw () {
     ctx.clearRect(0, 0, CANVASWIDTH, CANVASHEIGHT)
@@ -158,7 +158,7 @@
       let spread = canvas.height
       let size = Math.random() * 3
       // 速度
-      this.delta = 0.03
+      this.delta = 0.06
       // 现在的位置
       this.x = 0
       this.y = 0
