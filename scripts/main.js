@@ -158,7 +158,7 @@
       let spread = canvas.height
       let size = Math.random() * 3
       // 速度
-      this.delta = 0.09
+      this.delta = 0.06
       // 现在的位置
       this.x = 0
       this.y = 0
